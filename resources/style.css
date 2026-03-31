@@ -325,6 +325,10 @@ h1 em {
   gap: 14px;
   padding: 16px 18px;
   cursor: pointer;
+  width: 100%;
+  background: transparent;
+  border: none;
+  text-align: left;
 }
 
 .meal-icon {
@@ -386,6 +390,12 @@ h1 em {
 }
 
 .chevron.open { transform: rotate(90deg); }
+
+.meal-head:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 16px;
+}
 
 /* ── ACCORDION ── */
 .meal-body {

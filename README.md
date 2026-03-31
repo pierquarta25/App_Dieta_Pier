@@ -27,8 +27,8 @@ Ottimizzata per essere usata in palestra o in cucina, direttamente dal telefono.
 ```
 dieta-pier/
 ├── index.html      # Struttura HTML
-├── style.css       # Stile dark theme, layout, animazioni
-├── main.js         # Logica toggle, accordion, counter animato
+├── resources/style.css       # Stile UI, layout, animazioni
+├── resources/app.js          # React (no build) + dati dieta
 └── README.md       # Questo file
 ```
 
@@ -50,12 +50,12 @@ dieta-pier/
 
 | | Giorni ON | Giorni OFF |
 |---|---|---|
-| **Calorie** | 2680 kcal | 2600 kcal |
-| **Proteine** | 210 gr | 205 gr |
+| **Calorie** | 2800 kcal | 2720 kcal |
+| **Proteine** | 240 gr | 235 gr |
 | **Carboidrati** | 310 gr | 260 gr |
 | **Grassi** | 55 gr | 65 gr |
 
-> Aggiornato: **2 Marzo 2026**
+> Aggiornato: **1 Aprile 2026**
 
 ---
 
