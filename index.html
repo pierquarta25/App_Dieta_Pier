@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Piano Nutrizionale — Pier</title>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./resources/style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,7 +20,7 @@
     <div class="badge">⚡ Piano Nutrizionale</div>
     <h1>Dieta di <em>Pier</em></h1>
     <p class="sub">5 pasti · scegli la fonte · supplementi inclusi</p>
-    <div class="date-chip">📅 Aggiornato: 5 Marzo 2026</div>
+    <div class="date-chip">📅 Aggiornato: 1 Aprile 2026</div>
   </header>
 
   <!-- ── TOGGLE ON / OFF ── -->
@@ -35,12 +35,12 @@
   <!-- ── MACRO HERO ── -->
   <div class="hero">
     <div class="kcal-block">
-      <div class="kcal-num" id="kn">2680</div>
+      <div class="kcal-num" id="kn">2800</div>
       <div class="kcal-lbl">kcal totali / giorno</div>
     </div>
     <div class="mpills">
       <div class="mp p">
-        <span class="mp-val"  id="pn">210</span>
+        <span class="mp-val"  id="pn">240</span>
         <span class="mp-unit">grammi</span>
         <span class="mp-name">Proteine</span>
       </div>
@@ -57,9 +57,6 @@
     </div>
   </div>
 
-  <!-- ══════════════════════════════════════════
-       VIEWS CONTAINER (ON / OFF swap)
-  ══════════════════════════════════════════ -->
   <div class="views-cont">
 
     <!-- ════════ GIORNI ON ════════ -->
@@ -83,25 +80,22 @@
             <div class="meal-name">Colazione</div>
             <div class="meal-time">Mattina · appena sveglio</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~520</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~560</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
           <div class="mrow prot">
             <div class="mrow-head"><div class="mrow-dot"></div><span class="mrow-title">Proteine — scegli 1</span></div>
             <div class="mrow-items">
-              <div class="mrow-item"><span class="mrow-item-n">①</span>250 ml albume</div>
-              <div class="mrow-item"><span class="mrow-item-n">②</span>200 ml latte scremato / mandorla / soia + 30 gr proteine isolate</div>
+              <div class="mrow-item"><span class="mrow-item-n">①</span><strong>350 ml</strong> albume</div>
+              <div class="mrow-item"><span class="mrow-item-n">②</span>200 ml latte scremato / mandorla / soia + <strong>40 gr</strong> proteine isolate</div>
             </div>
           </div>
           <div class="mrow carb">
             <div class="mrow-head"><div class="mrow-dot"></div><span class="mrow-title">Carboidrati — scegli 1</span></div>
             <div class="mrow-items">
-              <div class="mrow-item"><span class="mrow-item-n">①</span><strong>60 gr</strong> farina d'avena + 10 gr cornflakes</div>
-              <div class="mrow-item"><span class="mrow-item-n">②</span><strong>60 gr</strong> cornflakes</div>
+              <div class="mrow-item"><span class="mrow-item-n">①</span>60 gr farina d'avena + 10 gr cornflakes</div>
+              <div class="mrow-item"><span class="mrow-item-n">②</span>60 gr cornflakes</div>
             </div>
           </div>
           <div class="mrow fat">
@@ -126,10 +120,7 @@
             <div class="meal-name">Spuntino Mattina</div>
             <div class="meal-time">Metà mattinata</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~370</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~370</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
@@ -170,29 +161,26 @@
             <div class="meal-name">Pranzo</div>
             <div class="meal-time">Mezzogiorno</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~700</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~750</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
           <div class="mrow prot">
             <div class="mrow-head"><div class="mrow-dot"></div><span class="mrow-title">Proteine — scegli 1</span></div>
             <div class="mrow-items">
-              <div class="mrow-item"><span class="mrow-item-n">①</span>150 gr petto di pollo o tacchino</div>
-              <div class="mrow-item"><span class="mrow-item-n">②</span>200 gr pesce magro (merluzzo, spigola, orata, sogliola o gamberetti)</div>
-              <div class="mrow-item"><span class="mrow-item-n">③</span>150 gr carne rossa magra</div>
+              <div class="mrow-item"><span class="mrow-item-n">①</span><strong>200 gr</strong> petto di pollo o tacchino</div>
+              <div class="mrow-item"><span class="mrow-item-n">②</span><strong>250 gr</strong> pesce magro (merluzzo, spigola, orata, sogliola o gamberetti)</div>
+              <div class="mrow-item"><span class="mrow-item-n">③</span><strong>200 gr</strong> carne rossa magra</div>
             </div>
           </div>
           <div class="mrow carb">
             <div class="mrow-head"><div class="mrow-dot"></div><span class="mrow-title">Carboidrati — scegli 1</span></div>
             <div class="mrow-items">
-              <div class="mrow-item"><span class="mrow-item-n">①</span><strong>80 gr</strong> riso o pasta</div>
-              <div class="mrow-item"><span class="mrow-item-n">②</span><strong>120 gr</strong> pane di segale o integrale</div>
-              <div class="mrow-item"><span class="mrow-item-n">③</span><strong>80 gr</strong> gallette</div>
-              <div class="mrow-item"><span class="mrow-item-n">④</span><strong>320 gr</strong> patate o patate dolci bollite / al forno — olio sempre a crudo</div>
-              <div class="mrow-item"><span class="mrow-item-n">⑤</span><strong>200 gr</strong> gnocchi di patate</div>
+              <div class="mrow-item"><span class="mrow-item-n">①</span>80 gr riso o pasta</div>
+              <div class="mrow-item"><span class="mrow-item-n">②</span>120 gr pane di segale o integrale</div>
+              <div class="mrow-item"><span class="mrow-item-n">③</span>80 gr gallette</div>
+              <div class="mrow-item"><span class="mrow-item-n">④</span>320 gr patate o patate dolci bollite / al forno — olio sempre a crudo</div>
+              <div class="mrow-item"><span class="mrow-item-n">⑤</span>200 gr gnocchi di patate</div>
             </div>
           </div>
           <div class="mrow fat">
@@ -218,10 +206,7 @@
             <div class="meal-name">Spuntino Post-Workout</div>
             <div class="meal-time">Subito dopo l'allenamento</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~490</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~490</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
@@ -254,19 +239,16 @@
             <div class="meal-name">Cena</div>
             <div class="meal-time">Sera</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~600</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~630</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
           <div class="mrow prot">
             <div class="mrow-head"><div class="mrow-dot"></div><span class="mrow-title">Proteine — scegli 1</span></div>
             <div class="mrow-items">
-              <div class="mrow-item"><span class="mrow-item-n">①</span>150 gr petto di pollo o tacchino</div>
-              <div class="mrow-item"><span class="mrow-item-n">②</span>200 gr pesce magro (merluzzo, spigola, orata, sogliola o gamberetti)</div>
-              <div class="mrow-item"><span class="mrow-item-n">③</span>150 gr carne rossa magra</div>
+              <div class="mrow-item"><span class="mrow-item-n">①</span><strong>200 gr</strong> petto di pollo o tacchino</div>
+              <div class="mrow-item"><span class="mrow-item-n">②</span><strong>250 gr</strong> pesce magro (merluzzo, spigola, orata, sogliola o gamberetti)</div>
+              <div class="mrow-item"><span class="mrow-item-n">③</span><strong>200 gr</strong> carne rossa magra</div>
             </div>
           </div>
           <div class="mrow carb">
@@ -317,18 +299,15 @@
             <div class="meal-name">Colazione</div>
             <div class="meal-time">Mattina · appena sveglio</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~490</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~540</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
           <div class="mrow prot">
             <div class="mrow-head"><div class="mrow-dot"></div><span class="mrow-title">Proteine — scegli 1</span></div>
             <div class="mrow-items">
-              <div class="mrow-item"><span class="mrow-item-n">①</span>250 ml albume</div>
-              <div class="mrow-item"><span class="mrow-item-n">②</span>200 ml latte scremato / mandorla / soia + <strong>20 gr</strong> proteine isolate</div>
+              <div class="mrow-item"><span class="mrow-item-n">①</span><strong>350 ml</strong> albume</div>
+              <div class="mrow-item"><span class="mrow-item-n">②</span>200 ml latte scremato / mandorla / soia + <strong>40 gr</strong> proteine isolate</div>
             </div>
           </div>
           <div class="mrow carb">
@@ -360,10 +339,7 @@
             <div class="meal-name">Spuntino Mattina</div>
             <div class="meal-time">Metà mattinata</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~370</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~370</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
@@ -404,19 +380,16 @@
             <div class="meal-name">Pranzo</div>
             <div class="meal-time">Mezzogiorno</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~700</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~750</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
           <div class="mrow prot">
             <div class="mrow-head"><div class="mrow-dot"></div><span class="mrow-title">Proteine — scegli 1</span></div>
             <div class="mrow-items">
-              <div class="mrow-item"><span class="mrow-item-n">①</span>150 gr petto di pollo o tacchino</div>
-              <div class="mrow-item"><span class="mrow-item-n">②</span>200 gr pesce magro (merluzzo, spigola, orata, sogliola o gamberetti)</div>
-              <div class="mrow-item"><span class="mrow-item-n">③</span>150 gr carne rossa magra</div>
+              <div class="mrow-item"><span class="mrow-item-n">①</span><strong>200 gr</strong> petto di pollo o tacchino</div>
+              <div class="mrow-item"><span class="mrow-item-n">②</span><strong>250 gr</strong> pesce magro (merluzzo, spigola, orata, sogliola o gamberetti)</div>
+              <div class="mrow-item"><span class="mrow-item-n">③</span><strong>200 gr</strong> carne rossa magra</div>
             </div>
           </div>
           <div class="mrow carb">
@@ -451,10 +424,7 @@
             <div class="meal-name">Spuntino Pomeriggio</div>
             <div class="meal-time">Ore 15:30 – 16:00</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~370</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~370</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
@@ -495,19 +465,16 @@
             <div class="meal-name">Cena</div>
             <div class="meal-time">Sera</div>
           </div>
-          <div class="meal-kcal">
-            <div class="meal-kcal-n">~670</div>
-            <div class="meal-kcal-l">kcal</div>
-          </div>
+          <div class="meal-kcal"><div class="meal-kcal-n">~690</div><div class="meal-kcal-l">kcal</div></div>
           <div class="chevron">›</div>
         </div>
         <div class="meal-body"><div class="meal-inner">
           <div class="mrow prot">
             <div class="mrow-head"><div class="mrow-dot"></div><span class="mrow-title">Proteine — scegli 1</span></div>
             <div class="mrow-items">
-              <div class="mrow-item"><span class="mrow-item-n">①</span>150 gr petto di pollo o tacchino</div>
-              <div class="mrow-item"><span class="mrow-item-n">②</span>200 gr pesce magro (merluzzo, spigola, orata, sogliola o gamberetti)</div>
-              <div class="mrow-item"><span class="mrow-item-n">③</span>150 gr carne rossa magra</div>
+              <div class="mrow-item"><span class="mrow-item-n">①</span><strong>200 gr</strong> petto di pollo o tacchino</div>
+              <div class="mrow-item"><span class="mrow-item-n">②</span><strong>250 gr</strong> pesce magro (merluzzo, spigola, orata, sogliola o gamberetti)</div>
+              <div class="mrow-item"><span class="mrow-item-n">③</span><strong>200 gr</strong> carne rossa magra</div>
             </div>
           </div>
           <div class="mrow carb">
@@ -606,6 +573,6 @@
 
 </div><!-- /wrap -->
 
-<script src="./resources/main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
